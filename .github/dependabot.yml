@@ -4,4 +4,8 @@ updates:
     directory: "/"
     schedule:
       # Check for updates once a week
-      interval: "quaterly"
+      interval: "monthly"
+    groups:
+      actions:
+        patterns:
+          - "*"
